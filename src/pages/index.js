@@ -24,12 +24,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Welcome">
 
-    <h1 className={heading}><StaticImage
-
-      alt="E Acad"
-      src="../components/e2.gif"
-
-    /></h1>
+    <h1 className={heading}>E Acad</h1>
       <p className={heading2}>The innovative learning site</p>
       <div className={div1}>course
 
