@@ -34,14 +34,14 @@ const IndexPage = () => {
       <StaticImage
       class= {img1}
         alt="Photo of website creator"
-        src="../images/gg.jpg"
+        src="../images/gg.JPG"
       />
       </div>
 
       <div className={div3}><StaticImage
       class= {img1}
         alt="Photo of website creator"
-        src="../images/gg.jpg"
+        src="../images/gg.JPG"
       /></div>
       <div className={div4}>course
       </div>
@@ -49,7 +49,7 @@ const IndexPage = () => {
       <div className={div2}><StaticImage
         class= {img1}
         alt="Photo of website creator"
-        src="../images/gg.jpg"
+        src="../images/gg.JPG"
       /></div>
 
 
