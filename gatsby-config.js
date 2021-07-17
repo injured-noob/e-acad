@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "E acad ",
+    title: "",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    `gatsby-transformer-sharp`,
+  ],
 };

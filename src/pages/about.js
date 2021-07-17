@@ -16,21 +16,18 @@ import {
   div4,
   head1,
   img1,
+  test1,
+  test2,
+  test3,
   heading2
 } from '../components/layout.module.css'
 
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout pageTitle="Welcome">
 
-    <h1 className={heading}><StaticImage
-
-      alt="E Acad"
-      src="../components/e2.gif"
-
-    /></h1>
-      <p className={heading2}>The innovative learning site</p>
+  
       <div className={div1}>course
 
 
@@ -64,4 +61,4 @@ const IndexPage = () => {
 )
 }
 
-export default IndexPage
+export default AboutPage
