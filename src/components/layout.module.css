@@ -45,6 +45,7 @@
     overflow: hidden;
     transition: top 0.3s;
     background: linear-gradient(to top right, #33ccff 0%, #cc00ff 100%);
+    z-index:100;
   }
   .nav-link-item {
     padding-right: 0rem;
@@ -123,6 +124,7 @@
   margin-bottom: 20px;
   margin-right: 5%;
   margin-left: 1%;
+  z-index:1;
 }
 .div3 {
   background-color: None;
@@ -130,7 +132,7 @@
   width: 44%;
   color: rgb(255,0,0);
   display: inline-block;
-
+  z-index:1;
   margin-top:  20px;
   margin-bottom: 20px;
   margin-right: 1%;
@@ -142,7 +144,7 @@
   width: 44%;
   color: rgb(255,0,0);
   display: inline-block;
-
+  z-index:1;
   margin-top:  20px;
   margin-bottom: 20px;
   margin-left: 1%;
